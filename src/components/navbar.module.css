@@ -1,0 +1,144 @@
+
+nav{padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   max-width: 100%;
+   height: 50px;
+   max-height: 50px;
+   color:   white;
+   background-color:  rgb(46, 0, 46);
+   position:fixed;
+   top: 0;
+   width: 100%;
+   overflow: hidden;
+   z-index: 100;
+   
+}
+
+.brand{transform: translateY(-10px);
+     padding-left: 50px;
+    font-size: larger;
+    font-weight:900;
+    
+   
+   
+}
+
+@media screen and (max-width: 600px){
+   .brand{
+      padding-left: 25px;
+   }
+   .toggler{
+      margin-right: 6px;
+   }
+   
+}
+
+.toggler{
+   transform: translateY(-17px);
+   color: rgba(211, 49, 8, 0.995);
+}
+
+
+.nav_items ul{
+   padding-right: 25px;
+    list-style: none;
+    display: flex;
+   column-gap: 30px;
+}
+
+.nav_items ul li a{
+   all: unset;
+   cursor: pointer;
+   font-size: 83%;
+   transition:ease-in-out 0.15s;
+   
+}
+
+.nav_items ul li a:hover{
+   border-bottom: 2px solid white;
+}
+
+
+
+
+
+.canvas{
+   max-width: 50%;
+   
+   color: whitesmoke;
+   background-color: rgb(46, 0, 46);
+}
+
+
+.nav_items_canvas{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   position: relative;
+}
+
+.nav_items_canvas ul{
+   list-style: none;
+   line-height: 65px;
+   padding: 0%;
+}
+
+.nav_items_canvas ul li a{
+   all: unset;
+   cursor: pointer;
+}
+
+.nav_items_canvas ul li a:hover{
+   border-bottom: 2px solid white;
+  }
+
+
+
+.resume{
+   all: unset;
+   padding: 5px;
+   font-size: 83%;
+   align-items: center;
+   color:   white;
+   background: linear-gradient(to top right, #E58239, #930B7D);
+   cursor: pointer;
+   border: 1px solid black;
+   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.63);
+   border-radius: 15px;
+   transition: 0.3s;
+
+}
+
+.nav_items ul li .resume:hover{
+   box-shadow: 1px 1px 1px 1px rgb(60, 25, 117);
+   transform: scale(108%);
+}
+
+
+
+
+
+@media screen and (max-width: 990px){
+   .resume{
+      all: unset;
+      position: absolute;
+      top: 105%;
+      left: 0%;
+      font-size: 14px;
+      padding: 5px;
+      justify-content: flex-start;
+      align-items: center;
+      color:   white;
+   background: linear-gradient(to top right, #E58239, #930B7D);
+   cursor: pointer;
+   border: 1px solid black;
+   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.63);
+   border-radius: 15px;
+   }
+  
+
+
+}

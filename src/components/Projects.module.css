@@ -1,0 +1,174 @@
+.main{
+    height:auto;
+   
+    margin:auto;
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: space-around;
+   
+   width: 95%;
+    padding-top: 20px;
+   
+
+}
+
+
+
+
+
+
+
+
+.heading{
+    display:flex;
+    align-items: center;
+   justify-content: center;
+    margin-top: 3%;
+    
+}
+
+.heading h2{
+    border-radius: 7px;
+    padding: 5px;
+    color: rgb(46, 0, 46);
+    background-color: #f8eff894;
+    box-shadow: 1px 1px 10px;
+    
+}
+
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+  
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5%;
+  align-items: center;
+  height:380px;
+  width: 320px;
+  margin: 3%;
+  padding: 0%;
+  background-color: rgb(46, 0, 46);
+
+box-shadow: 1px 1px 10px 1px rgba(211, 49, 8, 0.995);
+ overflow: hidden;
+position: relative;
+cursor: pointer;
+transition: 0.10s;
+
+}
+ 
+
+.card img{
+  
+  width: 100%;
+  height: 70%;
+  cursor: pointer;
+  position: relative;
+}
+
+.card .content{
+  z-index: 5;
+  position: absolute;
+  top: 72%;
+  background-color: rgb(46, 0, 46);
+  width: 100%;
+  height: 30%;
+}
+
+.desc{
+  z-index: 1;
+  position: absolute;
+  top: 70%;
+
+  color:whitesmoke;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 0.5s;
+ opacity: 0;
+ backdrop-filter: blur(15px);
+
+}
+
+
+.card:hover{
+  transform:scale(105%);
+  
+ 
+   box-shadow:none;
+}
+
+.card:hover .desc{
+
+    top: 0%;
+    opacity: 1;
+    
+} 
+
+
+
+
+.card_title{
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 900;
+  padding-top: 3%;
+}
+
+.card_btns{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 45%;
+  margin: 5% 15%;
+}
+
+.demo{
+  all: unset;
+  padding: 5px 20px;
+
+  align-items: center;
+  color:   white;
+  background: linear-gradient(to top right, #E58239, #930B7D);
+  cursor: pointer;
+  border: 1px solid black;
+  box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.63);
+  border-radius: 15px;
+}
+
+.github{
+  all: unset;
+  padding: 5px 20px;
+
+  align-items: center;
+  color:   white;
+  background-color: rgb(92, 13, 92);
+  cursor: pointer;
+  border: 1px solid black;
+  box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.63);
+  border-radius: 15px;
+
+}
+
+
+.card_btns button:hover{
+  box-shadow: 1px 1px 1px 1px rgb(60, 25, 117);
+}
