@@ -1,6 +1,6 @@
 
 import styles from './navbar.module.css'
-import {GiHamburgerMenu} from 'react-icons/gi'
+import { RxHamburgerMenu } from "react-icons/rx";
 
 function Navbar()  {
   return (
@@ -15,7 +15,7 @@ function Navbar()  {
 
       <div className={`navbar navbar-expand-lg ${styles.nav_items}`}>
       
-      <button className={`btn btn-primary navbar-toggler ${styles.toggler}` } aria-expanded="false" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><GiHamburgerMenu/></button>
+      <button className={`btn btn-primary navbar-toggler ${styles.toggler}` } aria-expanded="false" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><RxHamburgerMenu/></button>
 
 
     <div className={`collapse navbar-collapse ${styles.navs}`}  id="navbarNavDropdown">
