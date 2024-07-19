@@ -1,9 +1,9 @@
 import profile from './images/profile.jpg';
 import styles from './Home.module.css'
-import {BsFacebook} from 'react-icons/bs'
+import {FaFacebook} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
-import {BsGithub} from 'react-icons/bs'
-import {BsLinkedin} from 'react-icons/bs'
+import {FaGithub} from 'react-icons/fa'
+import {FaLinkedin} from 'react-icons/fa'
 import {MdEmail} from 'react-icons/md'
 import { Typewriter } from 'react-simple-typewriter'
 import { motion} from 'framer-motion';
@@ -94,10 +94,10 @@ function Home() {
           }}
           className={styles.icons}>
             <ul>
-            <li ><a href="https://www.linkedin.com/in/pranay-parbate-9358801a1" target="_blank" rel="noreferrer" > <BsLinkedin/></a>  </li>
-            <li ><a href="https://github.com/pranay292002" target="_blank" rel="noreferrer"> <BsGithub/></a>  </li>
+            <li ><a href="https://www.linkedin.com/in/pranay-parbate-9358801a1" target="_blank" rel="noreferrer" > <FaLinkedin/></a>  </li>
+            <li ><a href="https://github.com/pranay292002" target="_blank" rel="noreferrer"> <FaGithub/></a>  </li>
             <li ><a href="https://www.instagram.com/pranay_2903/" target="_blank" rel="noreferrer"> <FaInstagram/></a>  </li>
-            <li ><a href="https://www.facebook.com/pranay.p.96/" target="_blank" rel="noreferrer"><BsFacebook/></a>  </li>
+            <li ><a href="https://www.facebook.com/pranay.p.96/" target="_blank" rel="noreferrer"><FaFacebook/></a>  </li>
             <li ><a href="mailto:pranayparbate2002@gmail.com" target="_blank" rel="noreferrer"><MdEmail/></a>  </li>
             </ul>
           </motion.div>
